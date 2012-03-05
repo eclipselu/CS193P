@@ -110,7 +110,7 @@ static NSDictionary * PolygonNames;
 
 - (void) dealloc
 {
-    NSLog(@"Hey, I'm currently deallocing... :)");
+    NSLog(@"Hey, I'm %@, and I'm currently deallocing... :)", self.name);
 }
 
 @end

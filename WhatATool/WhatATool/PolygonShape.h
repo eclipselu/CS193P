@@ -18,7 +18,6 @@
 @property (readonly) NSString * name;
 @property (readonly) NSString * description;
 
-+ (NSDictionary *) PolygonNames;
 + (void) initialize;
 - (void) setNumberOfSides:(int)sides;
 - (void) setMinimumNumberOfSides:(int)minsides;
