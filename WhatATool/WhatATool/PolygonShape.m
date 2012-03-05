@@ -30,12 +30,11 @@ static NSDictionary * PolygonNames;
 {
     if (minsides <= 2) 
     {
-        NSLog(@"Min sides must be greater than 2, setting minimumNumberOfSides to 2... ");
-        minimumNumberOfSides = 2;
+        NSLog(@"Min sides must be greater than 2, setting minimumNumberOfSides to 2... ");        
     }
     else 
     {
-        // minimumNumberOfSides = minsides;
+        minimumNumberOfSides = minsides;
     }
 }
 
@@ -44,11 +43,10 @@ static NSDictionary * PolygonNames;
     if (maxsides > 12) 
     {
         NSLog(@"Min sides must be <= 12, setting minimumNumberOfSides to 12... ");
-        maximumNumberOfSides = 12;
     }
     else 
     {
-        // maximumNumberOfSides = maxsides;
+        maximumNumberOfSides = maxsides;
     }
 }
 
