@@ -18,7 +18,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *maxSides;
 @property (weak, nonatomic) IBOutlet UILabel *polyAngle;
 
-@property PolygonShape *poly;
+@property (strong, nonatomic) PolygonShape *poly;
 
 - (IBAction)addClicked:(id)sender;
 - (IBAction)reduceClicked:(id)sender;
